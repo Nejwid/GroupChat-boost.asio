@@ -4,5 +4,4 @@
 #pragma once
 
 #include <iostream>
-
 // TODO: W tym miejscu przywołaj dodatkowe nagłówki wymagane przez program.
