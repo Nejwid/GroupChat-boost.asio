@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+
+  client1:
+    image: asio-server-client:latest
+    container_name: tcp_client1
+    command:
+    stdin_open: true
+    tty: true
+
+  client2:
+    image: asio-server-client:latest
+    container_name: tcp_client2
+    command:
+    stdin_open: true
+    tty: true
+    

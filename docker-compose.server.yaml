@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  server:
+    image: asio-server-client:latest
+    container_name: tcp_server
+    command: ./AsioServer
+    ports:
+      - "12345:12345"
+    tty: true
